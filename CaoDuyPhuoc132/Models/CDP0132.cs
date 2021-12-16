@@ -8,13 +8,16 @@ using System.Threading.Tasks;
 
 namespace CaoDuyPhuoc132.Models
 {
-    public class UniversityCDP132
+    public class CDP0132
     {
         [Key]
-        [DisplayName("Mã trường đại học")]
-        public int UniversityId { get; set; }
-        [DisplayName("Tên trường đại học")]
+        [DisplayName("Mã sinh viên")]
+        [StringLength(20)]
+        public string CDPId { get; set; }
+        [DisplayName("Tên sinh viên")]
         [StringLength(50)]
-        public string UniversityName { get; set; }
+        public string CDPName { get; set; }
+        [DisplayName("Giới tính sinh viên")]
+        public bool CDPGender { get; set; }
     }
 }

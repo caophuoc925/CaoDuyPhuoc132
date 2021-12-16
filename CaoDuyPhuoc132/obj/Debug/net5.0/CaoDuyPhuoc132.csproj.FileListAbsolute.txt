@@ -149,3 +149,8 @@ C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\View
 C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\UniversityCDP132\Details.cshtml.g.cs
 C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\UniversityCDP132\Edit.cshtml.g.cs
 C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\UniversityCDP132\Index.cshtml.g.cs
+C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\CDP0132\Create.cshtml.g.cs
+C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\CDP0132\Delete.cshtml.g.cs
+C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\CDP0132\Details.cshtml.g.cs
+C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\CDP0132\Edit.cshtml.g.cs
+C:\Users\caoph\Desktop\CaoDuyPhuoc132\CaoDuyPhuoc132\obj\Debug\net5.0\Razor\Views\CDP0132\Index.cshtml.g.cs

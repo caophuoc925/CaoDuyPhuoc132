@@ -15,5 +15,7 @@ namespace CaoDuyPhuoc132.Data
         }
 
         public DbSet<CaoDuyPhuoc132.Models.UniversityCDP132> UniversityCDP132 { get; set; }
+
+        public DbSet<CaoDuyPhuoc132.Models.CDP0132> CDP0132 { get; set; }
     }
 }

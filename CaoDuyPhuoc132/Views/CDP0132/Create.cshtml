@@ -1,0 +1,43 @@
+﻿@model CaoDuyPhuoc132.Models.CDP0132
+
+@{
+    ViewData["Title"] = "Thêm học sinh";
+}
+
+<h1>Create</h1>
+
+<h4>CDP0132</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CDPId" class="control-label"></label>
+                <input asp-for="CDPId" class="form-control" />
+                <span asp-validation-for="CDPId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDPName" class="control-label"></label>
+                <input asp-for="CDPName" class="form-control" />
+                <span asp-validation-for="CDPName" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="CDPGender" /> @Html.DisplayNameFor(model => model.CDPGender)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay lại mục lục</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
